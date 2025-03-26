@@ -13,7 +13,11 @@ document.addEventListener("DOMContentLoaded", () => {
             selectedItem.style.zIndex = 1000;
         });
     });
-    
+
+	.items {
+  position: relative;
+  
+}
     document.addEventListener("mousemove", (e) => {
         if (!selectedItem) return;
         
