@@ -14,10 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-	.items {
-  position: relative;
-  
-}
     document.addEventListener("mousemove", (e) => {
         if (!selectedItem) return;
         
